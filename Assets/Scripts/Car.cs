@@ -8,7 +8,7 @@ public class Car : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.rotation = Quaternion.Euler(0,Random.Range(0,360),0);
     }
 
     // Update is called once per frame
